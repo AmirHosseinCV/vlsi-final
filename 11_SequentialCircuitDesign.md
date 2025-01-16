@@ -58,3 +58,53 @@
 2. **Hold Time Condition**:
    $$t_{cd\_{register}} + t_{cd\_{logic}} \geq t_{hold}$$
 
+
+## Static vs. Dynamic Memory
+
+- **Static Memory**:
+  - Preserves state as long as power is on.
+  - Built using **positive feedback**.
+
+- **Dynamic Memory**:
+  - Stores state temporarily.
+  - Based on **charge storage** in parasitic capacitors.
+
+### Static Latches and Registers
+
+- **Bistable Circuit**:
+  - Static memories use **positive feedback** to create a bistable circuit with two stable states (0 and 1).
+
+- **Cross-Coupled Inverter Pair**:
+  - Provides a stable way to store a binary variable.
+
+- **Additional Circuitry**:
+  - Needed to control the memory states.
+- **Types:**
+  - SR Flip-Flops (it's SR Latches is the slides)
+  - Multiplexer Based Latches
+  - Resettable and enabled latches and flip-flops
+  - Master-Slave Based Edge Triggered Register
+
+![image](https://github.com/user-attachments/assets/2a94f4cd-d534-4192-8856-8fcfcc864982)
+
+
+## SR Latches
+- S = Set, R = Rest, once you set s=1 while clk is 1, Q becomes 1 and maintains its state.
+- Consist of 6 nmos, 2 pmos. 
+- No static paths between VDD and GND can exist **except during switching**.
+
+![image](https://github.com/user-attachments/assets/3ff4292c-ff39-4e81-80d9-ee619c0b0c81)
+
+## Multiplexer Based Latches
+- Consist of 2 nmos, 2 pmos, 3 not.
+- Inverters are working as buffers (strenthening the signal), too.
+- NMOS transistors are good at passing a strong "0" (low voltage), and pmos transistors are the opposite. By combining an NMOS and a PMOS in parallel, you get the best of both worlds.
+ 
+![image](https://github.com/user-attachments/assets/46fd3386-2c92-4f24-8c1f-1fd0d2ae0f12)
+
+-------
+
+Most practical sequencing elements require a **reset signal** to **enter a known initial state on
+startup** and ensure **deterministic** behavior.
+
+-------
