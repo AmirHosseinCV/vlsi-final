@@ -102,9 +102,41 @@
  
 ![image](https://github.com/user-attachments/assets/46fd3386-2c92-4f24-8c1f-1fd0d2ae0f12)
 
--------
+
+## Resettable Latches and Flip-Flops
 
 Most practical sequencing elements require a **reset signal** to **enter a known initial state on
 startup** and ensure **deterministic** behavior.
 
--------
+- Synchronous: works regarding to clock
+- Asynchronous: works regardless of clock
+
+![image](https://github.com/user-attachments/assets/1913e3ca-b700-4b3f-b03b-2077fa96f94c)
+
+![image](https://github.com/user-attachments/assets/c266d61c-7218-4dbd-b2af-f7e554084f31)
+
+![image](https://github.com/user-attachments/assets/5a8ca90b-ae5e-41d6-9ad9-f56326f2b57d)
+
+
+- Left one is a latch (works when clock is high)
+- Right one is a Flip-Flop (works on the edge of the clock)
+
+
+## Enabled Latches and Flip-Flops
+
+When enable en is low, the element retains its state independently of the clock.
+
+![image](https://github.com/user-attachments/assets/d3df1d74-b007-45cc-82e7-6301333ff4c6)
+
+## Master-Slave Based Edge Triggered Register
+
+- is the most common approach for edge-triggered register
+- consists of cascading a negative latch (master stage) with a positive latch (slave stage)
+  - negative latch: transparent when enable is 0
+  - positive latch: transparent when enable is 1
+
+![image](https://github.com/user-attachments/assets/73b7fb31-4079-4481-8ef1-f103c2d5a0be)
+
+
+
+
