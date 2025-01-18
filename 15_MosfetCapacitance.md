@@ -1,6 +1,6 @@
 ## **1. Oxide Capacitance**
 
-* Formula: $\Huge{C_{ox} = \frac{\epsilon_{ox}}{t_{ox}}}$
+$$\Huge{C_{ox} = \frac{\epsilon_{ox}}{t_{ox}}}$$
 
 * **Parameters:**
     *  $\Huge{C_{ox}}$: Capacitance per unit area of the gate oxide.
@@ -9,7 +9,7 @@
 
 ## **2. Gate-Bulk Overlap Capacitance**
 
-* Formula: $\Huge{C_{GSO} = C_{GDO} = C_{ox} \cdot x_d \cdot W = C_o \cdot W}$
+$$\Huge{C_{GSO} = C_{GDO} = C_{ox} \cdot x_d \cdot W = C_o \cdot W}$$
 
 * **Parameters:**
     * $\Huge{C_{GSO}}$, $\Huge{C_{GDO}}$: Gate-source and gate-drain overlap capacitances, respectively.
