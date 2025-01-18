@@ -4,7 +4,9 @@ $$\Huge{C_{ox} = \frac{\epsilon_{ox}}{t_{ox}}}$$
 
 * **Parameters:**
     *  $\Huge{C_{ox}}$: Capacitance per unit area of the gate oxide.
-    *  $\Huge{\epsilon_{ox}}$: Permittivity of the gate oxide material (typically silicon dioxide).
+    *  $\Huge{\epsilon_{ox} = \epsilon_{0} \cdot \epsilon_{r}}$: Permittivity of the gate oxide material (typically silicon dioxide).
+    *  $\Huge{\epsilon_{0} ~= 8.85 \times 10^{-12}}$
+    *  $\Huge{\epsilon_{r}}$: Must be given, like $\Huge{\epsilon_{sio2} = 3.9}$
     *  $\Huge{t_{ox}}$: Thickness of the gate oxide layer.
 
 ## **2. Gate-Bulk Overlap Capacitance**
