@@ -10,7 +10,7 @@
 
 ![image](https://github.com/user-attachments/assets/4418236d-7be3-4865-8f47-b6a26eff60ae)
 
-
+$\huge{technology = 2\lambda}$ => مثلا میگه تکنولوژی 0.18 => $2\lambda = 0.18$
 
 ## **1. Oxide Capacitance**
 
@@ -75,11 +75,15 @@ $$\Huge{C_{GSO} = C_{GDO} = C_{ox} \cdot x_d \cdot W = C_o \cdot W}$$
 
 ## **5. Junction Capacitance**
 
+Diffusion = نفوذ
+
 $$\Huge{C_{diff} = C_{bottom} + C_{sw} = C_j \cdot AREA + C_{jsw} \cdot PERIMETER}$$
 
 $$\Huge{= C_j \cdot L_s \cdot W + C_{jsw} \cdot (2L_s + W)}$$
 
 $$\Huge{C_{poly} = C_{poly (plate)} \cdot AREA + C_{poly (fringe)} \cdot PERIMETER}$$
+
+$$\Huge{C_{total} = C_{diff} + C_{metal}}$$
 
 ![image](https://github.com/user-attachments/assets/af643c5b-be88-417d-88bb-4dc5248e7214)
 
