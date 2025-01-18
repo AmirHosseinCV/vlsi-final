@@ -30,6 +30,17 @@
    * $\Huge{C_0 = C_{ox}WL}$
 * When transistor is **on**:
    * $\Huge{C_g = C_{gb} + C_{gs} + C_{gd}}$
+* **Parameters:**
+   * $\Huge{C_g}$: Total gate capacitance.
+   * $\Huge{C_{gb}}$: Gate-to-body capacitance.
+   * $\Huge{C_{gs}}$: Gate-to-source capacitance.
+   * $\Huge{C_{gd}}$: Gate-to-drain capacitance.
+   * $\Huge{\epsilon_{ox}}$: Permittivity of the gate oxide.
+   * $\Huge{W}$: Width of the transistor.
+   * $\Huge{L}$: Length of the transistor.
+   * $\Huge{t_{ox}}$: Thickness of the gate oxide.
+   * $\Huge{C_{ox}}$: Oxide capacitance per unit area.
+   * $\Huge{C_0}$: Gate capacitance when the transistor is off (cutoff region).
 
 * **Resistive Region:**
    * $\Huge{C_{GCB} = 0}$
@@ -49,7 +60,9 @@
 
 ## **5. Junction Capacitance**
 
-* **Formula:** $\Huge{C_{diff} = C_{bottom} + C_{sw} = C_j \cdot AREA + C_{jsw} \cdot PERIMETER = C_j \cdot L_s \cdot W + C_{jsw} \cdot (2L_s + W)}$
+$$\Huge{C_{diff} = C_{bottom} + C_{sw} = C_j \cdot AREA + C_{jsw} \cdot PERIMETER}$$
+
+$$\Huge{= C_j \cdot L_s \cdot W + C_{jsw} \cdot (2L_s + W)}$$
 
 * **Parameters:**
     * $\Huge{C_{diff}}$: Total diffusion capacitance (includes bottom and sidewall components).
