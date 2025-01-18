@@ -1,3 +1,17 @@
+## Overview of Parameters
+
+![image](https://github.com/user-attachments/assets/7490c4f9-5cac-494f-a6d6-36e3a77e6fc6)
+
+![image](https://github.com/user-attachments/assets/af643c5b-be88-417d-88bb-4dc5248e7214)
+
+**Junction Capacitance (Cj)**:
+
+![image](https://github.com/user-attachments/assets/a858970e-512d-4c3e-9260-453caff84a3b)
+
+![image](https://github.com/user-attachments/assets/4418236d-7be3-4865-8f47-b6a26eff60ae)
+
+
+
 ## **1. Oxide Capacitance**
 
 $$\Huge{C_{ox} = \frac{\epsilon_{ox}}{t_{ox}}}$$
@@ -65,6 +79,9 @@ $$\Huge{C_{GSO} = C_{GDO} = C_{ox} \cdot x_d \cdot W = C_o \cdot W}$$
 $$\Huge{C_{diff} = C_{bottom} + C_{sw} = C_j \cdot AREA + C_{jsw} \cdot PERIMETER}$$
 
 $$\Huge{= C_j \cdot L_s \cdot W + C_{jsw} \cdot (2L_s + W)}$$
+
+![image](https://github.com/user-attachments/assets/af643c5b-be88-417d-88bb-4dc5248e7214)
+
 
 * **Parameters:**
     * $\Huge{C_{diff}}$: Total diffusion capacitance (includes bottom and sidewall components).
