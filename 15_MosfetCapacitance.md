@@ -14,7 +14,7 @@
 
 ## **1. Oxide Capacitance**
 
-$$\Huge{C_{ox} = \frac{\epsilon_{ox}}{t_{ox}}}$$
+$$\Huge{C_{ox} = \frac{\epsilon_{ox}}{t_{ox}} = \frac{\epsilon_{0} \cdot \epsilon_{r}}{t_{ox}}}$$
 
 * **Parameters:**
     *  $\Huge{C_{ox}}$: Capacitance per unit area of the gate oxide.
