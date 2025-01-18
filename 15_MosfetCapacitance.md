@@ -80,6 +80,8 @@ $$\Huge{C_{diff} = C_{bottom} + C_{sw} = C_j \cdot AREA + C_{jsw} \cdot PERIMETE
 
 $$\Huge{= C_j \cdot L_s \cdot W + C_{jsw} \cdot (2L_s + W)}$$
 
+$$\Huge{C_{poly} = C_{poly (plate)} \cdot AREA + C_{poly (fringe)} \cdot PERIMETER}$$
+
 ![image](https://github.com/user-attachments/assets/af643c5b-be88-417d-88bb-4dc5248e7214)
 
 
