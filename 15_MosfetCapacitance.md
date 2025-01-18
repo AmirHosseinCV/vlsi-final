@@ -42,8 +42,7 @@ $$\Huge{C_{GSO} = C_{GDO} = C_{ox} \cdot x_d \cdot W = C_o \cdot W}$$
 
 ## **4. Gate Capacitance**
 * When transistor is **off**:
-   * $\Huge{C_g = C_{gb} = \epsilon_{ox}WL/t_{ox} = C_{ox}WL}$
-   * $\Huge{C_0 = C_{ox}WL}$
+   * $\Huge{C_g = C_{gb} = \epsilon_{ox}WL/t_{ox} = C_{ox}WL}$ **( = $\Huge{C_{0}}$)**
 * When transistor is **on**:
    * $\Huge{C_g = C_{gb} + C_{gs} + C_{gd}}$
 * **Parameters:**
