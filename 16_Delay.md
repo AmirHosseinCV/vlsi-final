@@ -22,3 +22,8 @@ Sequential:
 
 $$\Huge{(\frac{w}{l})_{eq} = \frac{w}{l_1 + l_2} = \frac{1}{n} (\frac{w}{l})}$$
 
+--------
+
+Delay has two parts (t = gh + p):
+- Parasitic Delay: Independant of load (lead of the next gate) (p)
+- Effort Delay: Regarding to load (load of the next gate) (gh)
