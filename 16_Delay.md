@@ -5,3 +5,20 @@
 * **Scaling pMOS & nMOS:** (K = size of the transistor)
 ![image](https://github.com/user-attachments/assets/e5b044aa-a403-4d23-94ab-263ae4e0d1fc)
 
+---------------
+$$\Huge{T_{PHL} = 0.69 R_n C_L}$$
+
+$$\Huge{T_{PLH} = 0.69 R_p C_L}$$
+
+-----------
+
+Equlivant transistor size:
+
+Parallel:
+
+$$\Huge{(\frac{w}{l})_{eq} = \sum_k (\frac{w}{l})_k = \frac{w_1 + w_2}{l}}$$
+
+Sequential:
+
+$$\Huge{(\frac{w}{l})_{eq} = \frac{w}{l_1 + l_2} = \frac{1}{n} (\frac{w}{l})}$$
+
